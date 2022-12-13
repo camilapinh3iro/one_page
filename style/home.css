@@ -1,0 +1,140 @@
+#home{
+    background-image: url(../img/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    grid-template-rows: 60% 40%;
+    grid-template-areas: 
+        "titulo titulo"
+        "citacao citacao";
+    
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.home>.titulo>h2::before{
+    display: block;
+    content: "";
+    border-top: 6px solid #000;
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.citacao::before{
+    display: block;
+    content: "";
+    border-top: 6px solid #000;
+    width: 430px;
+    margin-bottom: 10px;
+    
+}
+
+.titulo{
+    padding-left: 80px;
+    grid-area: titulo;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+}
+
+h1{
+    font-size: 5.8rem;
+    width: 40vw;
+}
+
+h2, .autor{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+.container-citacao{
+    padding-right: 80px;
+    grid-area: citacao;
+    display: grid;
+    place-content: end;
+    place-items: center;
+    margin-bottom: 100px;
+}
+
+h1, .citacao, .citacao2{
+    text-transform: uppercase;
+}
+
+.autor{
+    color: #fff;
+    opacity: 0.8;
+}
+
+.ponto{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #000;
+}
+
+@media (max-width: 940px){
+    .home{
+        max-width: 940px;
+        padding: 0;
+    }
+
+    .container-citacao{
+        margin-top: 35vh;
+    }
+
+    h1{
+        font-size: 4.6rem;
+    }
+}
+
+@media (max-width: 640px){
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        max-width: 640px;
+    }
+
+    .titulo{
+        margin-top: 150px;
+        padding-left: 50px;
+    }
+
+    h1{
+        
+        font-size: 4rem;
+        width: 80vw;
+    }
+
+    .home>.titulo>h2::before{
+        display: block;
+        content: "";
+        border-top: 4.5px solid #000;
+        width: 40px;
+        margin-bottom: 15px;
+    }
+
+    .citacao::before{
+        display: block;
+        content: "";
+        border-top: 4.5px solid #000;
+        width: 270px;
+        
+    }
+
+    .container-citacao{
+        margin-top: 10vh;
+        padding-right: 0px;
+   }
+
+    .citacao, .citacao2, .autor{
+        font-size: 0.8rem;
+        
+        
+    }
+}
