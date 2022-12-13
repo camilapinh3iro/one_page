@@ -6,7 +6,7 @@
 
 ---
 ## Sobre 
-Esse site é tipo one page e aborda o tema "Ocean". Nele contêm tipos de espécies marinhas, fenômenos naturais que ocorrem nos oceanos e o impacto da destinação e tratamento incorreto do lixo que geramos.
+Esse site é do tipo one page e aborda o tema "Ocean". Nele contêm tipos de espécies marinhas, fenômenos naturais que ocorrem nos oceanos e o impacto da destinação e tratamento incorreto do lixo que geramos.
 
 O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no módulo de LIMA (Linguagem de Marcação) durante o primeiro semestre do curso de Desenvolvimento de Sistemas no [SENAI Jandira](https://jandira.sp.senai.br/). Além disso, incentivar a procura de outras técnicas para implementar no projeto, sendo o VLibras um requisito.
 
