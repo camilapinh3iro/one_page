@@ -1,6 +1,6 @@
 :root {
     --color-cinza: #B0B0B0;
-    --color-verde: #03D1C5; 
+    --color-verde: #03D1C5;
     --color-azul: #133452;
 }
 
@@ -31,11 +31,11 @@ header {
     z-index: 1;
     position: fixed;
     width: 100%;
-    
+
 
 }
 
-main{
+main {
     grid-area: content;
 }
 
@@ -54,7 +54,7 @@ footer {
 
 }
 
-section{
+section {
     height: 100vh;
 }
 
@@ -65,22 +65,18 @@ section{
 
 } */
 
-
-
-
-
-@media (max-width: 640px){
-    .home{
+@media (max-width: 640px) {
+    .casa {
         max-width: 640px;
         height: auto;
     }
 
-    header{
+    header {
         padding: 0 50px;
     }
 
-    footer>p{
+    footer>p {
         font-size: 0.65rem;
     }
-    
+
 }

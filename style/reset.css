@@ -1,15 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 
-ol, ul, li{
+ol, ul, li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
