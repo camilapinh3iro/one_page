@@ -2,7 +2,7 @@
 
 ![](./img/captura-tela.png)
 
-[Clique aqui](https://camilapinh3iro.github.io/one-page/) para acessar o site. 
+[Clique aqui](https://camilapinh3iro.github.io/one_page/) para acessar o site. 
 
 ---
 ## Sobre 

@@ -102,7 +102,7 @@ h1, .citacao, .citacao2{
 
     .titulo{
         margin-top: 150px;
-        padding-left: 50px;
+        padding-left: 30px;
     }
 
     h1{
@@ -123,13 +123,18 @@ h1, .citacao, .citacao2{
         display: block;
         content: "";
         border-top: 4.5px solid #000;
-        width: 270px;
+        width: 85vw;
         
     }
 
     .container-citacao{
         margin-top: 10vh;
         padding-right: 0px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
    }
 
     .citacao, .citacao2, .autor{
