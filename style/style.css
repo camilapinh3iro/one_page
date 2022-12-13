@@ -58,6 +58,17 @@ section{
     height: 100vh;
 }
 
+/* @media (max-width: 940px){
+    header{
+        padding: 0 50px;
+}
+
+} */
+
+
+
+
+
 @media (max-width: 640px){
     .home{
         max-width: 640px;

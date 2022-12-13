@@ -30,7 +30,7 @@ O VLibras é um conjunto de ferramentas gratuitas e de código aberto que traduz
 ## Relatório LightHouse
 O Lighthouse é uma ferramenta automatizada que aprimora a qualidade dos apps da Web, simulando diversas situações que podem afetar a experiência do usuário.
 
-![](./img/captura-tela.png)
+![](./img/captura-tela-light.png)
 
 ---
 ## Figma
